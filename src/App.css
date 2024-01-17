@@ -160,3 +160,17 @@ h3 {
   font-weight: 600;
   line-height: 24px;
 }
+
+/* Section Titles End */
+
+/* Hero Section Style */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 133.333px 85.333px 133.333px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: var(--bg-shade);
+}
